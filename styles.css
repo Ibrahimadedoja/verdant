@@ -546,15 +546,20 @@ body {
 .weekend-sale {
   display: flex;
   gap: 20px;
+  background-color: #FAF7EE;
+  padding: 50px 30px;
+  justify-content: space-between;
 }
 .weekend-sale-content {
   display: flex;
-  flex: 1;
   flex-direction: column;
+  justify-content: space-between;
   background-color: #223929;
-  width: fit-content;
+  width: 516px;
+  height: 249px;
   gap: 10px;
-  border-radius: 20px;
+  border-radius: 22px;
+  padding: 28px;
 }
 .weekend-sale-content > span {
   background-color: #F2B705;
@@ -596,4 +601,78 @@ body {
   font-family: "DM Sans", sans-serif;
   border: none;
   font-size: 13px;
+}
+.truck-leave-content {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  background-color: #F7E8D5;
+  width: 516px;
+  height: 249px;
+  gap: 24px;
+  border-radius: 22px;
+  padding: 46px 28px;
+}
+.truck-leave-heading {
+  font-family: "Source Serif 4", serif;
+  font-size: 22px;
+  font-weight: 400;
+  color: #1F2E24;
+}
+.truck-paragraph {
+  color: #6F6A5C;
+  font-size: 12.5px;
+}
+.t-l {
+  display: flex;
+  gap: 10px;
+}
+.t-link-1, .t-link-2{
+  text-decoration: none;
+  color: #FFFFFF;
+  border: 1px solid #e3decb;
+  padding: 10px 14px;
+  height: 31px;
+  width: 105px;
+  justify-content: center;
+  align-items: center;
+  background-color: #223929;
+  border-radius: 20px;
+  font-size: 12.5px;
+}
+.f-logo-container {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+}
+.f-logo {
+  height: 28px;
+  width: 28px;
+  background-color: #FAF7EE;
+  border-radius: 100%;
+}
+.f-logo-text{
+  font-family: "Source Serif 4", serif;
+  color: #FFFFFF;
+  font-size: 20px;
+}
+.f-message > p {
+  font-size: 12.5px;
+  color: #A9B6A8;
+}
+.v-f {
+  background-color: #223929;
+  padding: 36px 24px 26px 24px;
+}
+.p-f {
+  display: flex;
+  border-top: 1px solid #A9B6A8;
+  justify-content: space-between;
+  height: 35px;
+  padding-top: 21px;
+}
+.a-b-1, .a-b-2 {
+  color: #8E9C8C;
+  font: "DM Sans", sans-serif;
+  font-size: 11px;
 }
